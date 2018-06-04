@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "ignore": ["src/**/*.spec.ts"],
+  "exec": "kill-port --port 9229 && node --inspect-brk -r ts-node/register src/main.ts"
+}

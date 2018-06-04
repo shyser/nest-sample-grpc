@@ -1,0 +1,7 @@
+GET http://localhost:3001/
+
+###
+GET http://localhost:3001/hello/123/test
+
+###
+GET http://localhost:3001/hello/123/test/stream/

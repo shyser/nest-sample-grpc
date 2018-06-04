@@ -1,0 +1,22 @@
+
+syntax = "proto3";
+
+option java_package = "ex.grpc";
+option objc_class_prefix = "HSW";
+
+package hellostreamingworld;
+
+service MultiGreeter {
+  rpc SayHello (HelloRequest) returns (HelloReply) {}
+  rpc SayHelloStream (HelloRequest) returns (stream HelloReply) {}
+}
+
+message HelloRequest {
+  string name = 1;
+  string num_greetings = 2;
+}
+
+message HelloReply {
+  int32 index = 1;
+  string reply_message = 2;
+}
