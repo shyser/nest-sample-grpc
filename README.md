@@ -27,3 +27,5 @@
 编译之后`.proto`文件没有编译到`dist`文件夹，而就算手动copy进去，还是运行不起来
 
 - gRPC `load`过程的`LoadOptions`不可配置
+
+- 服务端无法设置返回的`gRPC status`，客户端也无法获取到这个值

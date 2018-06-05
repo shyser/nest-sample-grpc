@@ -34,5 +34,6 @@
     "ts-node": "^6.0.0",
     "tsconfig-paths": "^3.3.1",
     "tslint": "5.3.2"
-  }
+  },
+  "homepage": "https://github.com/StephenSeraph/nest-sample-grpc"
 }
